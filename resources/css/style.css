@@ -14,6 +14,7 @@ header{
   align-items: center;
   border-bottom: 1px solid seashell;
   position: fixed;
+  background-color: black;
 }
 header img {
   height: 50px;
@@ -37,8 +38,18 @@ a {
 .container{
   padding-top: 69px;
 }
-.mission{
+#mission{
   background-image: url("../images/dry-tea.jpg");
   height: 700px;
-  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+.mission-text{
+  background-color: black;
+  margin: auto;
+  width: 100%
+}
+#tea-month{
+  width: 1000px;
+  margin: auto;
 }
