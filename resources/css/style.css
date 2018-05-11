@@ -1,24 +1,44 @@
-header{
-  background-color: black;
-  display: flex;
-  height: 69px;
+body{
   font-family: Helvetica;
   font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header{
+  display: flex;
+  height: 69px;
   width: 100%;
   z-index: 1;
   align-items: center;
-  flex-wrap: wrap;
   border-bottom: 1px solid seashell;
-  justify-content: space-between;
+  position: fixed;
 }
 header img {
   height: 50px;
   padding-left: 10px;
 }
-header span{
-  padding: 20px 10px;
+nav {
+  text-align: right;
+  display: block;
+  flex-grow: 1;
 }
 a {
   color: seashell;
   text-align: right;
+  padding: 20px 10px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container{
+  padding-top: 69px;
+}
+.mission{
+  background-image: url("../images/dry-tea.jpg");
+  height: 700px;
+  display: flex;
 }
