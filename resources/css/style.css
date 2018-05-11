@@ -3,13 +3,22 @@ header{
   display: flex;
   height: 69px;
   font-family: Helvetica;
-  font-size: 22px
-  align-content: stretch;
+  font-size: 22px;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
 }
 header img {
   height: 50px;
-  justify-content: center;
+  padding-left: 10px;
+}
+header span{
+  padding: 20px 10px;
 }
 a {
   color: seashell;
+  text-align: right;
 }
