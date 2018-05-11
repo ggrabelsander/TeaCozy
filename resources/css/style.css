@@ -1,0 +1,15 @@
+header{
+  background-color: black;
+  display: flex;
+  height: 69px;
+  font-family: Helvetica;
+  font-size: 22px
+  align-content: stretch;
+}
+header img {
+  height: 50px;
+  justify-content: center;
+}
+a {
+  color: seashell;
+}
